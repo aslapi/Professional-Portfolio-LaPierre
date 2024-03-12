@@ -1,12 +1,13 @@
-
+:root {
+    --darkBlue: #1A1CA2;
+}
 
 .header {
     display:flex;
     flex-direction: row;
     justify-content: space-between;
     padding: 20px;
-    font-family: monospace;
-    background-color: gold;
+    background-color: var(--darkBlue);
     color: white;
 }
 
@@ -43,6 +44,21 @@
   .fa:hover {
     opacity: 0.7;
   }
+
+h2 {
+    font-family: "Open Sans";
+}
+
+.open-sans {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: italic;
+  font-variation-settings:
+    "wdth" 100;
+    letter-spacing: 50px;
+}
+
 
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
