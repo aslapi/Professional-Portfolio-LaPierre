@@ -35,6 +35,14 @@
     font-size: 30px;
 }
 
+/* Keeps the in-page links visible by keeping text color white */
+a:-webkit-any-link {
+    color:white;
+    cursor:pointer;
+    text-decoration:none;
+}
+
+/* social media icons */
 .header-icons {
     display: flex;
     color:white;
@@ -56,10 +64,10 @@
   font-family: "Open Sans", sans-serif;
   font-optical-sizing: auto;
   font-weight: 500;
-  font-style: italic;
+  font-style: normal;
   font-variation-settings:
     "wdth" 100;
-    letter-spacing: 40px;
+    letter-spacing: 15px;
 }
 
 .open-sans-li {
@@ -71,29 +79,17 @@
         "wdth" 300;
 }
 
-.about {
-    position:absolute;
-    bottom: -250px;
-    right: 50px;
-    font-size:60px;
-    color: var(--darkBlue);
-}
-
-.about-p {
-    position:absolute;
-    bottom: -400px;
-    left: 50px;
-    font-size: 40px;
-    color: white;
-}
-
 /* Background image underneath nav section */
 .alex {
-    height: 1500px;
+    height: 1100px;
     width: 100%;
-    background-image: url(../Images/alex-snowboard.jpg);
+    background-image: url(../Images/snowmed.jpg);
     background-size:cover;
     background-position: center;
+}
+
+.about {
+    display:flex;
 }
 
 
