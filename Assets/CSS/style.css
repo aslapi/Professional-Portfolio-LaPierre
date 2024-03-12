@@ -37,7 +37,6 @@
 
 .header-icons {
     display: flex;
-    margin-left: 50px;
     color:white;
     font-size: 30px;
 }
@@ -72,6 +71,23 @@
         "wdth" 300;
 }
 
+.about {
+    position:absolute;
+    bottom: -250px;
+    right: 50px;
+    font-size:60px;
+    color: var(--darkBlue);
+}
+
+.about-p {
+    position:absolute;
+    bottom: -400px;
+    left: 50px;
+    font-size: 40px;
+    color: white;
+}
+
+/* Background image underneath nav section */
 .alex {
     height: 1500px;
     width: 100%;
@@ -79,6 +95,7 @@
     background-size:cover;
     background-position: center;
 }
+
 
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
