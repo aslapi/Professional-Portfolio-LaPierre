@@ -3,7 +3,7 @@
 }
 
 html {
-    /* background-color: #000022; */
+    background-color: #000000;
 }
 
 body {
@@ -81,11 +81,11 @@ a:-webkit-any-link {
 
 /* Background image underneath nav section */
 .alex {
-    height: 700px;
-    width: 100%;
-    background-image: url(../Images/snowmed.jpg);
-    background-size:cover;
+    height: 400px;
+    background-image: url(../Images/alexanime.jpeg);
     background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
 }
 
 /* About section */
@@ -94,7 +94,6 @@ a:-webkit-any-link {
     flex-direction: row-reverse;
     align-items: center;
     color:white;
-    margin-top: 10px;
 }
 
 .about h2 {
@@ -115,7 +114,6 @@ a:-webkit-any-link {
     flex-direction: row;
     align-items: center;
     color:white;
-    margin-top:10px;
 }
 
 .project h2 {
