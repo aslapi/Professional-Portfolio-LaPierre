@@ -88,7 +88,7 @@ a:-webkit-any-link {
     background-repeat: no-repeat;
 }
 
-/* About section */
+/* ABOUT SECTION */
 .about {
     display:flex;
     flex-direction: row-reverse;
@@ -123,6 +123,18 @@ a:-webkit-any-link {
     text-align: center;
 }
 
+/* Image styling for image links */
+.project1 {
+    max-height: 190px;
+    width:860px;
+}
+
+.project2 {
+    height: 190px;
+    width: 420px;
+}
+
+/* Flexbox for image links */
 .flexproject {
     display:flex;
     flex-direction: row;
@@ -139,6 +151,7 @@ a:-webkit-any-link {
 
 .flexproject nav:nth-child(1) {
     flex-basis: 100%;
+    justify-content: center;
 }
 
 .flexproject nav:nth-child(2) {
@@ -152,14 +165,12 @@ a:-webkit-any-link {
 .footer {
     position: relative;
     display:flex;
-    color:black;
+    color:white;
     justify-content: center;
 }
 
 .footer div {
-    margin: 10px;
-    position:absolute;
-    margin-left:50px;
+    margin: 20px;
 }
 
 /* Extra small devices (phones, 600px and down) */
