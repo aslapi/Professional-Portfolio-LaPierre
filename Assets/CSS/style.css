@@ -106,6 +106,7 @@ a:-webkit-any-link {
 .about p {
     padding: 100px;
     flex: 2;
+    line-height:normal;
 }
 
 /* PROJECTS SECTION */
@@ -162,14 +163,14 @@ a:-webkit-any-link {
     flex: 1 0 auto;
 }
 
-.footer {
+footer {
     position: relative;
     display:flex;
     color:white;
     justify-content: center;
 }
 
-.footer div {
+footer p {
     margin: 20px;
 }
 
