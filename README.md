@@ -10,8 +10,7 @@ The purpose of the professional portfolio website is to expand my network and al
 
 ## Installation
 
-What are the steps required to install your project? Provide a step-by-step description of how to get the development environment running.
-There are no installation steps required for this project. Simply click the link provided: XXXXXX or you can clone the repository titled Professional-Portfolio-LaPierre and launch the index.html file in your default browser.
+There are no installation steps required for this project. Simply click the link provided: https://aslapi.github.io/Professional-Portfolio-LaPierre/ or you can clone the repository titled Professional-Portfolio-LaPierre and launch the index.html file in your default browser.
 
 ## Usage
 
