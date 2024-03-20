@@ -49,14 +49,10 @@ a:-webkit-any-link {
 .header nav ul {
     display: flex;
     flex-wrap: wrap;
-    list-style-type: none;
-    align-items: center;
-    justify-content: space-between;
 }
 
 .header nav ul li {
     margin-left: 50px;
-    color:white;
     font-size: 30px;
     font-weight: 325;
 }
@@ -125,7 +121,7 @@ a:-webkit-any-link {
 }
 
 /* Image styling for image links */
-.project1 {
+/* .project1 {
     max-height: 190px;
     width:860px;
 }
@@ -133,7 +129,7 @@ a:-webkit-any-link {
 .project2 {
     height: 190px;
     width: 420px;
-}
+} */
 
 /* Flexbox for image links */
 .flexproject {
@@ -152,26 +148,51 @@ a:-webkit-any-link {
 
 .flexproject nav:nth-child(1) {
     flex-basis: 100%;
-    justify-content: center;
+    background-image: url(../Images/coderefactor.jpeg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .flexproject nav:nth-child(2) {
     flex: 1 0 auto;
+    background-image: url(../Images/comingsoon.jpeg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .flexproject nav:nth-child(3) {
     flex: 1 0 auto;
+    background-image: url(../Images/comingsoon.jpeg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
-footer {
-    position: relative;
+.footer {
     display:flex;
-    color:white;
     justify-content: center;
+    align-items: center;
+    padding:20px;
+    color:white;
 }
 
-footer p {
-    margin: 20px;
+.footer h3 {
+    display: inline-block;
+    font-size: 32px;
+    font-weight: 325;
+}
+
+.footer nav ul {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.footer nav ul li {
+    margin-left: 80px;
+    font-size: 24px;
+    font-weight: 325;
 }
 
 /* Extra small devices (phones, 600px and down) */
